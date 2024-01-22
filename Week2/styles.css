@@ -1,0 +1,43 @@
+.header-class {
+    background-color: #eee;
+    text-align: center;;
+}
+
+#Menu ul{
+    font-style: oblique;
+    border: 5px solid burlywood;
+    line-height: 30px;
+}
+
+.Opening-Hours {
+    width: 100%;
+    border: 5px solid burlywood;
+    border-spacing: 20px 10px;
+    background-color: antiquewhite;
+}
+
+.Opening-Hours th{
+    font-size: large;
+    border-bottom: 5px solid burlywood;
+}
+
+.Opening-Hours td{
+    text-align: center;
+}
+
+.footer {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+    font-size: medium;
+  }
